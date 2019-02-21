@@ -29,50 +29,33 @@ footer {
 
 /* Responsive DESKTOP LAYOUT */
 
-/*
 @media all and (min-width:1200px) {
-	
-	body {
-        width: 88%;
-        margin: 5% auto;
-        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        min-height: 450px;
-        background: #fff;
-		display: 
-    }
     
-    header {
-        background: #ccc;
-        overflow: hidden;
-        display: block;
+    .colorxl {
+        background-color: blue;
     }
 	
-	.self {
-        width: 10%;
-        background: #ccc;
-        float: left;
-        display: block;
-        margin: 14% 1.5%;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    
+    .colorlg {
+        background-color: yellow;}
+    
+}
+
+@media (min-width:768px)  and (max-width:991px) {
+	
+    .colormd {
+        background-color: grey;
+    } 
+	
+}
+
+@media (min-width:250px)  and (max-width:767px) {
+	
+    .colorsm {
+        background-color: orangered;
     }
 	
-	p {
-        font-size: 1em;
-        margin: 10px;
-        padding: 5px;
-        color: #666;
-    }
-	
-	
-	section {
-        margin-top: 10%;
-		padding: 5%;
-    }
-               
-    section h2 {
-        color: #666;
-        text-align: center;
-        font-weight: bolder;
-        margin-top: 5%;
-    }
-	
-} */
+}
