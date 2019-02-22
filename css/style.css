@@ -6,13 +6,13 @@
 */
 
 
-html {
+/* html {
     background: url('../img/background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 /*
 h1, h2, h3, h4, h5, h6, p {
@@ -34,13 +34,38 @@ footer {
     .colorxl {
         background-color: blue;
     }
+    
+    .review {
+        background-color: red;
+    }
+    
+    .review2 {
+        background-color: green;
+    }
+    
+    .review3 {
+        background-color: orangered;
+    }
 	
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     
     .colorlg {
-        background-color: yellow;}
+        background-color: yellow;
+    }
+    
+    .review {
+        background-color: blue;
+    }
+    
+    .review2 {
+        background-color: yellow;
+    }
+    
+    .review3 {
+        background-color: red;
+    }
     
 }
 
@@ -49,6 +74,18 @@ footer {
     .colormd {
         background-color: grey;
     } 
+    
+    .review {
+        background-color: gray;
+    }
+    
+    .review2 {
+        background-color: hotpink;
+    }
+    
+    .review3 {
+        background-color: violet;
+    }
 	
 }
 
@@ -56,6 +93,18 @@ footer {
 	
     .colorsm {
         background-color: orangered;
+    }
+    
+    .review {
+        background-color: lightcoral;
+    }
+    
+    .review2 {
+        background-color: bisque;
+    }
+    
+    .review3 {
+        background-color: saddlebrown;
     }
 	
 }
